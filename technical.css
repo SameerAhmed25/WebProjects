@@ -1,27 +1,28 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: sans-serif;
     box-sizing: border-box;
 }
 
 html,
 body,
 head {
-    background-image: radial-gradient(#f6d365, #fda085);
+    background: linear-gradient(to right, rgb(171, 171, 250), white, rgb(171, 171, 250));
+    font-family: 'Segoe UI';
     color: black;
     max-width: 100%;
     min-width: 290px;
     line-height: 1.5;
 }
 
-
+/* #fda085 */
 
 nav {
     position: fixed;
     max-width: 100%;
     width: 300px;
-    background-image: radial-gradient(#f6d365, #fda085);
+    background-color: rgb(171, 171, 250);
     border-right: 2px solid black;
     display: flex;
     flex-direction: column;
@@ -74,6 +75,14 @@ nav ul {
     overflow-x: hidden;
 }
 
+nav a {
+    color: black;
+}
+
+nav a:hover {
+    color: blue
+}
+
 nav li {
     list-style: none;
     margin-left: -10px;
@@ -81,7 +90,7 @@ nav li {
     text-decoration: none;
     font-size: 0.9em;
     color: black;
-    padding: 8px;
+    padding: 6px;
     position: relative;
     width: 100%;
 }
@@ -126,8 +135,8 @@ code {
     word-break: normal;
     word-wrap: normal;
     line-height: 2;
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     margin-right: 50px;
     margin-left: 20px;
     margin-top: 20px;
