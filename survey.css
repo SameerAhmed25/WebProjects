@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+
+* {
+  font-family: 'Roboto Slab', serif;
+}
+
+body {
+  background: linear-gradient(to right, rgb(236, 206, 38), white, rgb(236, 206, 38));
+  text-align: center;
+  font-family: "Poppins";
+  line-height: 1.4;
+  max-width: 100%;
+  width: 500px;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -40px;
+}
+
+form {
+  background-color: #fff;
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 50px 50px;
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 2rem;
+}
+
+.button {
+  background-color: #fbeec1;
+  border-radius: 2px;
+  font-size: 21px;
+  display: block;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 0.75rem;
+  cursor: pointer;
+}
+
+.name,
+.age,
+.email {
+  text-align: left;
+  width: 90%;
+  padding: 0.25rem 0.75rem;
+  background-color: #fff;
+  display: inline-block;
+}
+
+.checkbox {
+  display: inline-block;
+  width: auto;
+  height: auto;
+}
+
+.owner {
+  max-width: 100%;
+  margin: 10px 30px;
+  font-size: 20px;
+  display: block;
+  color: black;
+  text-align: center;
+  box-sizing: border-box;
+  padding-bottom: 20px;
+}
+
+a:hover {
+  color: red;
+}
+
+#submit:hover {
+  background-color: #f6d365;
+}
+
+select {
+  border: 1px solid #777;
+  padding: 0.25rem 0.75rem;
+  border-radius: 0.50rem;
+  height: 2rem;
+  display: inline-block;
+  margin: 10px;
+  width: 90%;
+}
+
+input {
+  border: 1px solid #777;
+  padding: 10px 10px;
+  border-radius: 10px;
+  display: inline-block;
+  margin: 10px;
+  width: 90%;
+}
+
+.radio {
+  display: inline-block;
+  width: auto;
+  margin: auto
+}
+
+textarea {
+  border: 1px solid #777;
+  border-radius: 10px;
+  font-family: verdana;
+  padding: 10px;
+  display: block;
+  width: 95%;
+  height: 100px;
+}
