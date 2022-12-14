@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Ubuntu&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Rubik+80s+Fade&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+.container {
+    font-family: 'Rubik 80s Fade', cursive;
+  color: white;
+  font-weight: bold;
+  font-size: 70px;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.border{
+    border: 5px solid white;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+#title{
+    font-family: 'Rubik 80s Fade', cursive;
+    margin: 20px;
+}
